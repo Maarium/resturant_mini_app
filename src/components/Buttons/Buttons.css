@@ -1,0 +1,22 @@
+.buttons-main{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px 20px 18px;
+}
+.buttons-main button{
+width: 175px;
+height: 32px;
+border: 1px solid #000000;
+border-radius: 16px;
+font-family: poppinsRegular;
+font-weight: 400;
+font-style: Regular;
+font-size: 11px;
+background: #A2CA39;
+color: #3B3B3B;
+}
+#home{
+    background: none;
+}

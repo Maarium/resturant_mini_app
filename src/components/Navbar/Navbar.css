@@ -1,0 +1,25 @@
+.navbar{
+    max-width: 100%;
+    background-color: #A2CA39;
+}
+.nav-sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 19px 18px 16px;
+}
+.nav-sub-left{
+display: flex;
+align-items: center;
+gap: 2px;
+font-family: Poppins;
+font-weight: 600;
+font-size: 11px;
+line-height: 21px;
+color: #3B3B3B
+}
+.nav-sub-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

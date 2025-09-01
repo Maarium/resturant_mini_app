@@ -1,0 +1,15 @@
+.bottom-nav{
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+    height: 56px;
+    background: #F3F7EA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#home {
+    opacity: 1;
+}
+#home :hover{
+    opacity: 0;
+}
