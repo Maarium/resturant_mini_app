@@ -1,0 +1,63 @@
+.cust-fav-container{
+    padding: 15px 17px 0px 17px;
+    height: 844px;
+   }
+.profile-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-bottom: 24px;
+
+}
+.profile-left{
+    display: flex;
+    align-items: center;
+}
+#name{
+margin: 0;
+font-family: Poppins;
+font-weight: 600;
+font-size: 14px;
+}
+#mail{
+ margin: 0;
+font-family: poppinsRegular;
+font-weight: 400;
+font-size: 11px;
+}
+.buttons-main{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px 20px 18px;
+}
+.buttons-main button{
+width: 175px;
+height: 32px;
+border: 1px solid #000000;
+border-radius: 16px;
+font-family: poppinsRegular;
+font-weight: 400;
+font-style: Regular;
+font-size: 11px;
+background: none;
+color: #3B3B3B;
+background: none;
+}
+#white-btn:focus{
+    background: #A2CA39;
+}
+.profile-options{
+height: 42px;
+border-radius: 10px;
+background-color: #F3F7EA;
+box-shadow: 1px 1px 2.8px 0px #00000033;
+font-family: PoppinMedium;
+font-weight: 500;
+font-size: 12px;
+padding-left: 15px;
+display: flex;
+align-items: center;
+margin-bottom: 6px;
+}

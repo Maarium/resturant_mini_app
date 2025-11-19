@@ -9,6 +9,7 @@
     justify-content: center;
 }
 .search-input{
+height: 31px;
 width: 319px;
 border: 1px solid #000000CC;
 border-radius: 16px;

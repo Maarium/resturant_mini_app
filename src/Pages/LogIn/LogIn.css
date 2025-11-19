@@ -1,0 +1,23 @@
+.login-form{
+    height: 450px;
+    font-size: 12px;
+    font-family: poppinsRegular;
+}
+.login-rem{
+    display: flex;
+    justify-content: space-between;
+    color: #3B3B3B;
+}
+.login-rem-left{
+    display: flex;
+    gap: 9px;
+}
+#checkbx{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    
+}
+.login-rem-left p{
+    margin: 0;
+}

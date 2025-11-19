@@ -1,0 +1,23 @@
+.account-form{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 17px 0px 17px;
+}
+.account-form label{
+font-family: poppins;
+font-size: 12px;
+padding-left: 5px;
+}
+.account-form input{
+font-family: poppin;
+font-size: 12px;
+background: #F3F7EA;
+height: 19px;
+margin-bottom: 6px;
+border-radius: 10px;
+box-shadow: 1px 1px 2.8px 0px #00000033;
+padding: 13px 15px 10px 15px;
+border: none;
+outline: none;
+margin-bottom: 18px;
+}

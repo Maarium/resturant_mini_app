@@ -1,15 +1,20 @@
 .bottom-nav{
-border-top-left-radius: 8px;
-border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     height: 56px;
     background: #F3F7EA;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    max-width: 100%;
 }
 #home {
     opacity: 1;
 }
 #home :hover{
     opacity: 0;
+}
+.bottom-nav button{
+    background: none;
+    border: none;
 }

@@ -1,0 +1,25 @@
+.notification-section{
+    padding: 28px 17px 0px 17px;
+    height: 844px;
+}
+.notificattion-container{
+display: flex;
+background-color: #F3F7EA;
+height: 40px;
+border-radius: 15px;
+padding: 10px 5px 26px 9px;
+margin-bottom: 15px;
+
+}
+.noti-title{
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13px;
+}
+.noti-desc{
+font-family: poppinsRegular;
+font-weight: 400;
+font-size: 11px;
+}
+

@@ -1,0 +1,95 @@
+.welcome-form{
+    /* height: 431px; */
+    padding: 8px 0px 11px 17px;
+    font-size: 12px;
+    font-family: poppinsRegular;
+}
+.welcome-snakia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 21px 0px 0px;
+}
+.welcome-snakia-left h1{
+font-family: poppins;
+font-size: 14px;
+margin: 0;
+}
+.welcome-snakia-left p{
+    margin: 0;
+}
+#signup{
+width: 68px;
+height: 30px;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+background: #A2CA39;
+border: none;
+}
+.welcome-snakia-right{
+    display: flex;
+}
+.welcome-snakia-right button{
+font-family: poppins;
+font-size: 12px;
+}
+#login{
+width: 68px;
+height: 30px;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+background:  #D9D9D9;
+border: none;
+color: #8A8A8A;
+}
+.snakia-form{
+    display: flex;
+    flex-direction: column;
+    margin: 46px 21px 0px 19px;
+}
+.snakia-form label{
+   color: #3B3B3B;
+   padding-bottom: 3px;
+}
+.password-field{
+    position: relative;
+}
+.password-field img{
+    right: 0;
+    top: 22%;
+    position: absolute;
+}
+.snakia-form input{
+width: 100%;
+height: 24px;
+border-radius: 4px;
+border-width: 1px;
+border: 1px solid #D9D9D9;
+padding: 6px 5px;
+margin-bottom: 22px;
+}
+#form-bottom-btn{
+width: 100%;
+height: 30px;
+border-radius: 4px;
+font-family: poppins;
+font-size: 14px;
+color: #3B3B3B;
+background: #A2CA39;
+box-shadow: 2px 2px 4px 0px #00000026;
+border: none;
+margin-top: 16px;
+}
+@media (max-width:355px) {
+    .welcome-snakia{
+     padding: 8px 5px 11px 10px;
+    }
+       .welcome-snakia-left h1{
+        font-size: 12px;
+       }
+       .welcome-snakia-left p{
+        font-size: 10px;
+       }
+
+
+}

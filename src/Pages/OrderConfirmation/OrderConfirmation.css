@@ -1,0 +1,63 @@
+.order-confirm-page{
+    height: 844px;
+}
+.order-text{
+    padding: 26px;
+}
+#order-text-head{
+display: flex;
+align-items: center;
+font-family: poppins;
+font-size: 15px;
+margin: 0;
+}
+#order-text-desc{
+font-family: poppinsRegular;
+font-size: 11px;
+margin: 0;
+}
+.order-pricing-container{
+    background: #FFFFFF;
+    padding: 17px;
+}
+.order-price-card{
+background: #F3F7EA;
+height: 112px;
+border-radius: 10px;
+box-shadow: 1px 1px 2.8px 0px #00000033;
+position: relative;
+margin-bottom: 25px;
+padding:0px 7px 0px 8px;
+}
+.order-total-price{
+border-top: 0.25px solid #3B3B3B;
+border-bottom: 0.25px solid #3B3B3B;
+margin-bottom: 21px;
+}
+.order-total-price p{
+padding: 8px 0px 12px 0px;
+font-family: poppinsRegular;
+font-size: 13px;
+text-align: center;
+margin: 0;
+}
+.order-total-price span{
+font-family: poppins;
+color: #EB2929;
+}
+.order-now-desc{
+    height: 126px;
+    text-align: center;
+    padding: 0px 26px 0px 17px;
+    font-family: poppinsRegular;
+    font-size: 12px;
+}
+.order-now-desc button{
+width: 213px;
+height: 32px;
+border-radius: 16px;
+font-family: poppins;
+font-size: 14px;
+background: #A2CA39;
+border: none;
+}

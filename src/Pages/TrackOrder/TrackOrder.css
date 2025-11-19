@@ -1,0 +1,94 @@
+.track-order-page{
+height: 844px;
+}
+.track-card{
+height: 68px;
+border-radius: 10px;
+background: #F3F7EA;
+box-shadow: 1px 1px 2.8px 0px #00000033;
+margin: 32px 19px 46px 13px;
+padding: 11px 11px 16px 9px;
+display: flex;
+gap: 11px;
+}
+.track-card-text{
+   width: 100%; 
+   color: #3B3B3B;
+}
+.track-card-title{
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.track-card-text p{
+font-family: poppinsRegular;
+font-size: 10px;
+margin: 0;
+text-align: left;
+}
+#track-card-price{
+    font-family: poppins;
+}
+#track-total{
+    font-size: 11px;
+}
+#track-order-status{
+font-family: poppinsRegular;
+font-size: 13px;
+text-align: center;
+color: #3B3B3B;
+}
+#track-order-status span{
+font-family: poppins;
+color: #EB2929;
+}
+.order-track-steps{
+    display: flex;
+    max-width: 100%;
+    padding: 10px 19px 21px 36px;
+    font-family: poppins;
+    font-size: 10px;
+    color: #3B3B3B;
+}
+.track-received-step{
+width: 25%;
+text-align: center;
+}
+.track-way-step{
+width: 25%;
+text-align: center;
+}
+.track-packed-step{
+width: 25%;
+text-align: center;
+}
+.track-delivered-step{
+width: 25%;
+text-align: center;
+opacity: 0.3;
+}
+.track-one-step p{
+    margin: 0;
+    padding-top: 7px;
+}
+.track-one-step-images{
+    display: flex;
+    align-items: center;
+}
+.track-one-step-images hr{
+    width: 100%;
+    height: 4px;
+    background: #A2CA39;
+    margin: 0;
+    border: none;
+}
+.track-location{
+    height: 389px;
+    margin: 0px 31px 0px 28px;
+    display: flex;
+    justify-content: center;
+    /* border: 0.5px solid #000000 */
+}
+.track-location img{
+    width: 100%;
+}

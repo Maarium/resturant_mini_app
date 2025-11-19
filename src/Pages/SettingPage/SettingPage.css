@@ -1,0 +1,35 @@
+.setting-page{
+    height: 844px;
+}
+.page-name{
+    display: flex;
+    gap: 11px;
+    height: 19px;
+    background: #A2CA39;
+   padding: 20px 0px 17px 17px;
+    align-items: center;
+    font-family: poppins;
+font-weight: 600;
+font-size: 14px;
+}
+.page-name img{
+    width: 8px;
+    height: 17px;
+}
+.setting-options{
+    margin-top: 27px;
+    padding: 0px 17px 0px 17px;
+}
+.set-option{
+font-family: PoppinMedium;
+font-size: 12px;
+background: #F3F7EA;
+height: 19px;
+margin-bottom: 6px;
+border-radius: 10px;
+box-shadow: 1px 1px 2.8px 0px #00000033;
+padding: 13px 0px 10px 15px;
+}
+.set-option :active{
+    color: #EB2929;
+}

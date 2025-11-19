@@ -1,0 +1,147 @@
+.cart-page{
+    height: 844px;
+    position: relative;
+}
+.page-name{
+    display: flex;
+    gap: 14px;
+    height: 19px;
+    background: #A2CA39;
+    padding: 20px 0px 17px 17px;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 14px;
+}
+.page-name img{
+    width: 8px;
+    height: 17px;
+}
+.page-name span{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.page-name span img{
+    width: 14px;
+    height: 17px;
+}
+.searchbar{
+ padding: 26px 16px 26px 18px; 
+}
+.search-input{
+height: 15px;
+border: 1px solid #000000CC;
+border-radius: 16px;
+display: flex;
+align-items: center;
+gap: 8px;
+padding:9px 13px 7px 13px;
+}
+.search-input input{
+    width:  100%;
+    border: none;
+    outline: none;
+}
+.search-input img{
+    width: 16px;
+    height: 16px;
+}
+.search-input input::placeholder{
+font-family: poppinsRegular;
+font-weight: 400;
+font-size: 11px;
+color: #3B3B3B;
+}
+.cart-cards-container{
+    padding: 0px 16px 0px 18px;
+}
+.cart-card{
+height: 112px;
+border-radius: 10px;
+background: #F3F7EA;
+box-shadow: 1px 1px 2.8px 0px #00000033;
+position: relative;
+margin-bottom: 17px;
+}
+#ellipse{
+position: absolute;
+top: -8px;
+left: -8px;
+}
+.cart-card-title{
+padding: 10px 8px 10px 8px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.cart-card-title p{
+font-family: poppinsRegular;
+font-size: 13px;
+margin: 0; 
+}
+.cart-card-title span{
+font-family: poppins;
+}
+.cart-card-content{
+    display: flex;
+    gap: 8px;
+    padding-left: 8px;
+}
+#cart-card-prod{
+font-family: poppinsRegular;
+font-size: 13px;
+margin: 0;
+}
+#cart-card-price{
+font-family: poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13px;
+margin: 0;
+color: #EB2929;
+}
+.cart-card-quantity{
+    display: flex;
+    gap: 5px;
+    font-family: poppinsRegular;
+    align-items: center;
+}
+.cart-card-quantity p{
+    margin: 0;
+}
+.cart-card-quantity{
+    position: absolute;
+    right: 14px;
+    bottom: 0px;
+}
+#cart-minus{
+    margin-bottom: 6px;
+}
+.cart-bottom-container{
+    background: #F3F7EA;
+    height: 82px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cart-bottom-container p{
+font-family: poppinsRegular;
+font-size: 13px;
+margin: 0;
+}
+.cart-bottom-container span{
+    font-family: poppins;
+    color: #EB2929;
+}
+.cart-bottom-container button{
+width: 141px;
+height: 32px;
+background: #A2CA39;
+border-radius: 16px;
+border: none;
+}

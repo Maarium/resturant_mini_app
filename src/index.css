@@ -15,4 +15,8 @@ body {
     font-family: poppins-light;
     src: url("/public/font/Poppins-Light.ttf");
   }
+  @font-face {
+    font-family: PoppinMedium;
+    src: url("/public/font/Poppins-Medium.ttf");
+  }
 
